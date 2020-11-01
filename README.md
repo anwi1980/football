@@ -1,9 +1,7 @@
 # Google Research Football
-
-This repository contains an RL environment based on open-source game Gameplay
-Football. <br> It was created by the Google Brain team for research purposes.
-
-Useful links:
+# Neue Zeilen einfügen
+noch eine Zeile
+3te Zeite
 
 * __(NEW!)__ [GRF Kaggle competition](https://www.kaggle.com/c/google-football) - take part in the competition playing games against others, win prizes and become the GRF Champion!
 * [GRF Game Server](https://research-football.dev/) - challenge other researchers (replaced by GRF Kaggle competition, frozen ranking available).
@@ -177,4 +175,4 @@ In order to see the checkpoints playing, run
 where `$CHECKPOINT` is the path to downloaded checkpoint.
 
 In order to train against a checkpoint, you can pass 'extra_players' argument to create_environment function.
-For example extra_players='ppo2_cnn:right_players=1,policy=gfootball_impala_cnn,checkpoint=$CHECKPOINT'.
+
